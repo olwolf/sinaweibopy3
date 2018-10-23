@@ -5,7 +5,6 @@ import urllib.parse
 import json
 import logging
 import time
-import webbrowser
 
 # general json object that can bind any fields but also act as a dict.
 #a json class inhert dict class which can use d['key'] or d.key to get
