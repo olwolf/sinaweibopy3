@@ -49,6 +49,5 @@ def main():
     except ValueError:
         print('pyOauth2Error')
 
-
 if __name__ == '__main__':
     main()
