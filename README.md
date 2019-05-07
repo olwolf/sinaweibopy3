@@ -1,7 +1,7 @@
 #### Description
 **sinaweibopy3** plays a role in the use of **sinaweibo API** just as what Twurl does in the use of Twitter API. It asks for the authorization of a specified user to get the access token for the client application, and then signs all requests with that access token.
 
-Specifically, **sinaweibopy3 is for python3 version**. If you're using python 2, please click here: [sinaweibopy]((https://github.com/michaelliao/sinaweibopy)
+Specifically, **sinaweibopy3 is for python3 version**. If you're using python 2, please click here: [sinaweibopy](https://github.com/michaelliao/sinaweibopy)
 #### Getting Started
 If you start to use sinaweibo API from scratch, the first thing is to apply for a developer account to access sinaweibo API:
 
@@ -37,7 +37,8 @@ client.set_access_token(result.access_token, result.expires_in)
 #### What should I do if I want to get other kinds of data from sinaweibo API?
 
 1. Look up the required url and parameters of the data on https://open.weibo.com/wiki/API
-
+![url](https://github.com/Juliecodestack/sinaweibopy3/blob/master/url.png)
+![parameters](https://github.com/Juliecodestack/sinaweibopy3/blob/master/parameters.png)
 2. In `sinaweibopy3.py`, add a function.
 ```
 def funtion_name(self):
