@@ -14,7 +14,7 @@ When you have your App Key and Secret you authorize your sinaweibo account to ma
 1. Import `sinaweibopy3` in your file
 ```
 import webbrowser
-import sinaweibopy3
+import weibo
 ```
 2. Set some parameters of your application: APP_KEY, APP_SECRET, REDIRECT_URL
 
